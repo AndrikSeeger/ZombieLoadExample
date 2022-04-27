@@ -6,7 +6,7 @@ void maccess(void *p) { asm volatile("movq (%0), %%rax\n" : : "c"(p) : "rax"); }
 char __attribute__((aligned(4096))) secret[8192];
 
 int main(int argc, char* argv[]) {
-  char key = 'O';
+  char key = 'A';
 
   if(argc >= 2) {
     key = argv[1][0];
