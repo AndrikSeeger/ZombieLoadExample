@@ -27,7 +27,7 @@ Run the attacker on the first hyperthread (mask: 0b1): `start /affinity 1 .\leak
 
 ## Victim Application
 
-Simply run the victim on the same physical core but a different hyperthread (mask: 0b10000) as the attacker: `start /affinity 16 .\secret.exe`. You can also provide a secret letter to the victim application as a parameter, e.g., `start /affinity 16 .\secret.exe M` to access memory containing 'M's. The default secret letter is 'O'. 
+Simply run the victim on the same physical core but a different hyperthread (mask: 0b10000) as the attacker: `start /affinity 16 .\secret.exe`. You can also provide a secret letter to the victim application as a parameter, e.g., `start /affinity 16 .\secret.exe M` to access memory containing 'M's. The default secret letter is 'U'. 
 
 As soon as the victim is started, there should be a clear signal in the attacker process, i.e., the bar for the leaked letter should get longer. 
 
