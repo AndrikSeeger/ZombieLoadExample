@@ -8,7 +8,7 @@ This repository contains two applications to demonstrate ZombieLoad. For technic
 
 This repository contains a proof-of-concept attack showing ZombieLoad on **Windows 10**. It also includes a victim application to test the leakage in various scenarios. 
 
-This demo was tested with an Intel Core i7-7700k but they should work on any Windows 10 system with any modern Intel Core or Xeon CPU since 2010. 
+This demo was tested with an Intel Core i7-7700k but it should work on any Windows 10 system with any modern Intel Core or Xeon CPU since 2010. 
 
 For the best results, use a fast CPU that supports Intel TSX (e.g. nearly any Intel Core i7-5xxx, i7-6xxx, or i7-7xxx). 
 
