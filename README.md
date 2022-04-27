@@ -37,6 +37,7 @@ As soon as the victim is started, there should be a clear signal in the attacker
 * **How do I know which core IDs are hyperthreads?**
  
     You can use the [coreinfo tool from Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/coreinfo). 
+    The core count starts at 0b1 for the affinity mask.
 
 * **Can I run the PoC in a virtual machine?**
 
