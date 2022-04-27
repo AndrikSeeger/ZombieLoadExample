@@ -18,7 +18,9 @@ The PoCs only require MinGW-w64 to compile.
 
 Building the attacker or victim is as simple as running `make` in the folder of the application. 
 
-### Run
+## Run
+
+### Attacker Application
 
 This Variant does not require any CPU features or privileges. 
 Run the attacker on the first hyperthread: `start /affinity 1 .\leak.exe`. It sometimes takes a while until the leakage starts. Starting a different program which uses memory (e.g., an internet browser) sometimes reduces the waiting time. 
