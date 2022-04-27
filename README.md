@@ -43,7 +43,7 @@ As soon as the victim is started, there should be a clear signal in the attacker
 
 * **It just does not work on my computer, what can I do?**
 
-    There can be a lot of different reasons for that. We collected a few things you can try:
+    There can be a lot of different reasons for that. You can try:
     
     * Ensure that your CPU frequency is at the maximum, and frequency scaling is disabled.
     * If you run it on a mobile device (e.g., a laptop), ensure that it is plugged in to get the best performance.
