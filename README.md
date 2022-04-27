@@ -15,8 +15,9 @@ For the best results, use a fast CPU that supports Intel TSX (e.g. nearly any In
 ## Building
 
 The PoCs only require MinGW-w64 to compile. 
-
 Building the attacker or victim is as simple as running `make` in the folder of the application. 
+
+*Alternatively you can try out the precompiled executables in the v1.0 release.*
 
 ## Run
 
