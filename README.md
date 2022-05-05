@@ -26,7 +26,7 @@ Building the attacker or victim is as simple as running `make` in the folder of 
 This Variant does not require any CPU features or privileges. 
 Run the attacker on the first hyperthread (mask: 0b1): `start /affinity 1 .\leak.exe`. It sometimes takes a while until the leakage starts. Starting a different program which uses memory (e.g., an internet browser) sometimes reduces the waiting time. 
 
-## Victim Application
+### Victim Application
 
 Simply run the victim on the same physical core but a different hyperthread (mask: 0b10000) as the attacker: `start /affinity 16 .\secret.exe`. You can also provide a secret letter to the victim application as a parameter, e.g., `start /affinity 16 .\secret.exe M` to access memory containing 'M's. The default secret letter is 'A'. 
 
