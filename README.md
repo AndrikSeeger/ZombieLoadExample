@@ -6,7 +6,7 @@ This repository contains two applications to demonstrate **ZombieLoad as an exam
 
 ## Proof of Concept (PoC)
 
-This repository contains a proof-of-concept attack showing ZombieLoad on **Windows 10**. It also includes a victim application to test the leakage in various scenarios. 
+This repository contains a Proof of Concept attack showing ZombieLoad on **Windows 10**. It also includes a victim application to test the leakage in various scenarios. 
 
 This demo was tested with an Intel Core **i7-7700k** but it should work on any Windows 10 system with any modern Intel Core or Xeon CPU since 2010. 
 
