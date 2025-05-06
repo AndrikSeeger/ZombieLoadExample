@@ -1,7 +1,7 @@
 # 🧟‍♂️ ZombieLoad PoC
 
-This repository contains two applications to demonstrate **ZombieLoad as an example of Microarchitectural Data Sampling (MDS)**.
-For technical information about the bug, refer to the paper:
+This repository contains two applications to demonstrate the **ZombieLoad Exploit as an example of Microarchitectural Data Sampling (MDS)**.
+For technical information about the exploited bug, refer to the paper:
 
 📄 *[ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieload.com/zombieload.pdf)*
 by Schwarz, Lipp, Moghimi, Van Bulck, Stecklina, Prescher, and Gruss
@@ -73,7 +73,7 @@ As soon as the victim starts, the attacker should show a **clear signal** — th
 ### 🧩 How do I know which core IDs are hyperthreads?
 
 Use the [Coreinfo tool from Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/coreinfo).
-🧮 The core count for affinity masks starts at `0b1`.
+The core count for affinity masks starts at `0b1`.
 
 ---
 
